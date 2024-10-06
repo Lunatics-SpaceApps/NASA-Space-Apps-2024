@@ -18,11 +18,11 @@ We created a CNN (Convolutional Neural Network) model to predict the beggining o
 We split the data into 76% for training and 24% for testing.
 
 ## Model arquitecture:
-Convolutional Layer with 32 filters
-Convolutional Layer with 64 filters
-Convolutional Layer with 128 filters
-Dense Layer with 128 neurons and relu activation
-Dense Layer with 1 neuron (prediction neuron)
+- Convolutional Layer with 32 filters
+- Convolutional Layer with 64 filters
+- Convolutional Layer with 128 filters
+- Dense Layer with 128 neurons and relu activation
+- Dense Layer with 1 neuron (prediction neuron)
 
 # Prediction example
 ![Lunar seismic detection](output.png)
