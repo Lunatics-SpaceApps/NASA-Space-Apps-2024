@@ -1,32 +1,29 @@
-How to use the repository
+# Seismic Detection
+
+## What is it for?
+It helps to recognize seismic events from other planets/satellites to reduce the energy needed to send this data back to earth.
+
+## Data preparation before model training:
+We needed to supply the model with the data, containing the velocity values of all seismic recording.
+
+This data was normalized and filtered to create a spectogram using the frequencies.
+
+## Model creation
+We created a CNN (Convolutional Neural Network) model to predict the beggining of the seismic.
+We split the data into 76% for training and 24% for testing.
+
+##Model arquitecture:
+Convolutional Layer with 32 filters
+Convolutional Layer with 64 filters
+Convolutional Layer with 128 filters
+Dense Layer with 128 neurons and relu activation
+Dense Layer with 1 neuron (prediction neuron)
 
 
-What does the repository do?
-It takes seismic data and returns the relative time of the quake.
 
-Data preparation before model training
-We needed to supply the model with a matrix containing all the velocity data of all the
-seismic recording. This is done by going through each csv file, and saving the velocity
-column. For the Moon test data, we faced a problem, as those csv were in different folders.
-We decided to create a loop for accessing each folder in search for files. This process can 
-be looped as many times as needed for accessing multiple subfolders.
-
-This data is transposed and swapped with the zeros matrix. It’s important to note that x
-dimensions are dynamic, as we check the quantity of files and the maximum number of
-velocity data. As a result, many X matrix rows contain zeros, needed for providing the model
-with a uniform data set.
-
-In the case of the training data, we create a list containing each quake relative time. This is 
-done utilizing a dedicated file we were provided with.
-
-Challenges encountered
-We count with little individual seismic data and a enormous amount of data for each. This is 
+## Challenges encountered
+We count with little individual seismic data and a enormous amount of data for each (we only have 76 examples for the lunar data). This is 
 not optimal, as for the model the more seismic data the best, but also for the matrix creation.
-Going through each file to discover the quantity of rows takes so much time for the little
-quantity of files. A intermediate optimization could be reducing the resolution, eliminating half
+A intermediate optimization could be reducing the resolution, eliminating half
 the velocity data. This would have a negligible impact on the result and a great improvement
-in processing times. 
-
-
-NASA Wellcome
-
+in processing times.
