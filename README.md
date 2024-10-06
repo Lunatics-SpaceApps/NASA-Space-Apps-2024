@@ -17,7 +17,7 @@ This data was normalized and filtered to create a spectogram using the frequenci
 We created a CNN (Convolutional Neural Network) model to predict the beggining of the seismic.
 We split the data into 76% for training and 24% for testing.
 
-##Model arquitecture:
+## Model arquitecture:
 Convolutional Layer with 32 filters
 Convolutional Layer with 64 filters
 Convolutional Layer with 128 filters
