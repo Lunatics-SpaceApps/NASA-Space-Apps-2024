@@ -13,6 +13,8 @@ We needed to supply the model with the data, containing the velocity values of a
 
 This data was normalized and filtered to create a spectogram using the frequencies.
 
+![Spectogram](output2.png)
+
 ## Model creation
 We created a CNN (Convolutional Neural Network) model to predict the beggining of the seismic.
 We split the data into 76% for training and 24% for testing.
