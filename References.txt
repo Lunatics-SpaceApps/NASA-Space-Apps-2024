@@ -1,0 +1,14 @@
+NASA Original Dataset https://wufs.wustl.edu/SpaceApps/data/space_apps_2024_seismic_detection.zip
+
+
+GeeksForGeeks
+https://www.geeksforgeeks.org/
+
+Datacamp (https://www.datacamp.com/tutorial/python-list-methods?utm_source=google&utm_medium=paid_search&utm_campaignid=21057859163&utm_adgroupid=157296744657&utm_device=c&utm_keyword=&utm_matchtype=&utm_network=g&utm_adpostion=&utm_creative=715077768440&utm_targetid=dsa-2218886984100&utm_loc_interest_ms=&utm_loc_physical_ms=1005452&utm_content=&utm_campaign=230119_1-sea~dsa~tofu_2-b2c_3-es-lang-en_4-prc_5-na_6-na_7-le_8-pdsh-go_9-nb-e_10-na_11-na-oct24odp&gad_source=1&gclid=CjwKCAjwx4O4BhAnEiwA42SbVA1_IBXZH0Df1ejenus7fAANG5Yf7-KUNEr8GYhOUPRCr2RheqZsiBoC2okQAvD_BwE)
+
+Numpy (https://numpy.org/doc/stable/reference/generated/numpy.matrix.transpose.html)
+
+W3Schools (https://www.w3schools.com/python/python_lists_comprehension.asp)
+
+ChatGPT for code consulting https://chatgpt.com/
+
